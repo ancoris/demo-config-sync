@@ -1,0 +1,10 @@
+---
+# devops-namespace.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cmod
+  labels:
+    name: cmod
+  annotations:
+    description: "Namespace for the Cloud Modernisation related teams"

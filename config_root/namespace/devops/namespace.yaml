@@ -1,0 +1,10 @@
+---
+# devops-namespace.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: devops
+  labels:
+    name: devops
+  annotations:
+    description: "Namespace for the DevOps related teams"
