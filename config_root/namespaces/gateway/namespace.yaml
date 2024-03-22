@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: gateway
+  labels:
+    name: gateway
+  annotations:
+    description: "Namespace for the demo application with gateway http route"
+    configsync.gke.io/cluster-name-selector: prod-ap-gke-ew2-0
