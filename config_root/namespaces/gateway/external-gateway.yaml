@@ -15,4 +15,4 @@ spec:
       kinds:
       - kind: HTTPRoute
       namespaces:
-        from: store
+        from: All
