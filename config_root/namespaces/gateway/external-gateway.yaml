@@ -4,7 +4,7 @@ metadata:
   name: external-http
   namespace: gateway
   annotations:
-    configsync.gke.io/cluster-name-selector: dev-gke-ew2-0
+    configsync.gke.io/cluster-name-selector: prod-ap-gke-ew2-0
 spec:
   gatewayClassName: gke-l7-global-external-managed-mc
   listeners:
