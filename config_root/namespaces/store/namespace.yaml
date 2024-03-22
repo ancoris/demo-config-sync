@@ -2,3 +2,7 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: store
+  labels:
+    name: store
+    istio-injection: enabled
+    
