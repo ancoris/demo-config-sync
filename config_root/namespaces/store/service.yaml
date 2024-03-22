@@ -3,8 +3,6 @@ kind: Service
 metadata:
   name: store
   namespace: store
-  annotations:
-    configsync.gke.io/cluster-name-selector: prod-ap-gke-ew2-0
 spec:
   selector:
     app: store
@@ -17,5 +15,3 @@ apiVersion: net.gke.io/v1
 metadata:
   name: store
   namespace: store
-  annotations:
-    configsync.gke.io/cluster-name-selector: prod-ap-gke-ew2-0
